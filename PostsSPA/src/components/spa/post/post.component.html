@@ -1,0 +1,24 @@
+<div class="row mt-1 pl-1">
+  <div
+    class="col-xxs-12 btn btn-sm btn-light btn-block title"
+    (click)="isPostCollapsed = !isPostCollapsed"
+    [attr.aria-expanded]="!isPostCollapsed"
+  >
+    <div class="float-left">
+      <div>{{ data.Title }}<span class="badge badge-pill badge-light ml-4 comments-badge">{{ !data.Comments ? 0 : data.Comments.length}}</span></div>
+      <div class="float-left"><span class="posted-by">Posted By: {{ !data.Poster || !data.Poster.Username ? 'Anonymous' : data.Poster.Username }}</span></div>
+    </div>
+    <div class="float-right pl-4 pl-4">
+      {{ collapseICon(isPostCollapsed) }}
+    </div>
+  </div>
+</div>
+<div class="mt-1 mb-1 p-0" [ngbCollapse]="isPostCollapsed">
+  <div class="mb-1">{{ data.Body }}</div>
+
+  <div class="p-0" id="commentList" role="tablist" *ngIf="data.Comments.length > 0">
+    <span class="p-0 m-0" *ngFor="let comment of data.Comments; let i = index;">
+      <app-comment class="mt-1 mb-1 pl-4 pr-4 pt-0 pb-0" [commentNumber]="i + 1" [comment]="comment"></app-comment>
+     </span>
+  </div>
+</div>

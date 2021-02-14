@@ -1,0 +1,14 @@
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.csprojAssemblyReference.cache
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.csproj.CoreCompileInputs.cache
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.RazorAssemblyInfo.cache
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.RazorAssemblyInfo.cs
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.AssemblyInfoInputs.cache
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsApi\obj\Debug\netcoreapp2.1\PostsAPI.AssemblyInfo.cs
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\bin\Debug\netcoreapp2.1\PostsAPI.deps.json
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\bin\Debug\netcoreapp2.1\PostsAPI.runtimeconfig.json
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\bin\Debug\netcoreapp2.1\PostsAPI.runtimeconfig.dev.json
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\bin\Debug\netcoreapp2.1\PostsAPI.dll
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\bin\Debug\netcoreapp2.1\PostsAPI.pdb
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\obj\Debug\netcoreapp2.1\PostsAPI.RazorTargetAssemblyInfo.cache
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\obj\Debug\netcoreapp2.1\PostsAPI.dll
+C:\Users\RonaldPaul\Documents\Development\Posts\PostsAPI\obj\Debug\netcoreapp2.1\PostsAPI.pdb

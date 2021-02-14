@@ -1,0 +1,23 @@
+<div class="container-fluid p-0 m-0">
+  <app-spa-header></app-spa-header>
+  <div class="col-12 pagination-container">
+    <app-pagination-settings (paginationSettingsChanged)="onPaginationSettingsChanged($event)"></app-pagination-settings>
+  </div>
+
+  <div class="spinner-border" role="status" *ngIf="!isDataLoaded">
+    <span class="sr-only">Loading...</span>
+  </div>
+
+  <div>
+    <ng-template #postsHost appAnchor></ng-template>
+  </div>
+
+  <div class="p-5">
+    <app-posts-container [posts]="posts"></app-posts-container>
+  </div>
+
+  <div class="col-12 row justify-content-center">
+    <app-pagination [paginationDefinition]="paginationDefinition" (getPostsRequested)="onGetPostsRequested($event)"></app-pagination>
+  </div>
+
+</div>

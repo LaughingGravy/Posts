@@ -1,0 +1,16 @@
+.pagination > li > a
+{
+    background-color: rgb(76, 83, 86);
+    color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: black;
+    background-color: rgb(247, 138, 9);
+    border-color: #ddd;
+}
+

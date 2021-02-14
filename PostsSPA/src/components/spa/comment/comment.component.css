@@ -1,0 +1,20 @@
+.comment-container {
+  border: 1px solid navajowhite;
+  border-radius: 0.5em;
+}
+
+.comment-body {
+  border-color: white;
+  border-radius: .5em;
+  border-width: 1px;
+  background-color: #292e36;
+  color: white;
+}
+
+.comment-title {
+  font-size: 1.2em;
+}
+
+.comment-text {
+  font-size: 1em;
+}

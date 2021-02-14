@@ -1,0 +1,37 @@
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+      <li class="page-item" *ngIf="paginationDefinition.CurrentPage - 1 > 0">
+        <a class="page-link" href="#!" aria-label="Previous" (click)="requestPage(paginationDefinition.CurrentPage - 1)">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+
+      <li class="page-item" *ngIf="startPage <= paginationDefinition.TotalPages"  [ngClass]="{active: startPage == paginationDefinition.CurrentPage}">
+        <a class="page-link" href="#!" (click)="requestPage(startPage)">{{ startPage }}</a>
+      </li>
+
+      <li class="page-item"  *ngIf="(startPage + 1) <= paginationDefinition.TotalPages" [ngClass]="{active: startPage == paginationDefinition.CurrentPage + 1}">
+        <a class="page-link" href="#!" (click)="requestPage(startPage + 1)">{{ startPage + 1 }}</a>
+      </li>
+
+      <li class="page-item" *ngIf="(startPage + 2) <= paginationDefinition.TotalPages" [ngClass]="{active: startPage == paginationDefinition.CurrentPage + 2}">
+        <a class="page-link" href="#!" (click)="requestPage(startPage + 2)">{{ startPage + 2 }}</a>
+      </li>
+
+      <li class="page-item" *ngIf="(startPage + 3) <= paginationDefinition.TotalPages" [ngClass]="{active: startPage == paginationDefinition.CurrentPage + 3}">
+        <a class="page-link" href="#!" (click)="requestPage(startPage + 3 )">{{ startPage + 3 }}</a>
+      </li>
+
+      <li class="page-item" *ngIf="(startPage + 4) <= paginationDefinition.TotalPages" [ngClass]="{active: startPage == paginationDefinition.CurrentPage + 4}">
+        <a class="page-link" href="#!" (click)="requestPage(startPage + 4)">{{ startPage + 4 }}</a>
+      </li>
+
+    <li class="page-item" *ngIf="startPage + 5 <= paginationDefinition.TotalPages">
+      <a class="page-link" href="#!" aria-label="Next" (click)="requestPage(startPage + 5)">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>

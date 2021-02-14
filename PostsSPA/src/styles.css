@@ -1,0 +1,62 @@
+@import '../bootstrap/bootstrap.min.css';
+/*@import '../node_modules/font-awesome/css/font-awesome.min.css'; */
+
+html,
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding-bottom: 0px;
+  color: white;
+  background-color: #303030;
+}
+
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+}
+
+.btn.btn-orange {
+  background: rgb(247, 138, 9);
+  color: white;
+}
+
+.btn.btn-light:hover {
+  background: rgb(247, 138, 9);
+}
+
+.btn.btn-light {
+  background: rgb(76, 83, 86);
+}
+
+.btn.btn-orange:hover {
+  background: darkgrey;
+}
+
+.bg-dark-gray {
+  background: rgb(76, 83, 86);
+}
+
+.bg-light-gray {
+  background: rgb(114, 126, 130);
+}
+
+.bg-gray {
+  background: rgb(76, 83, 86);
+}
+
+.bg-black-test {
+  background: #303030;
+}
+
+.btn.btn-primary {
+  color: white;
+}
+
